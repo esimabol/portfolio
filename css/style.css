@@ -1,0 +1,241 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+html {
+	font-size: 16px;
+}
+body {
+	background-color: rgb(245,245,246);
+}
+img {
+ 	width:100%;
+ }
+.container {
+	max-width: 940px;
+	margin:0 auto;
+	padding: 0 10px;
+}
+header {
+	background-color: #a98274; /*#dab988;*/
+}
+
+header .container {
+	display: flex;
+	flex-direction: row;
+	flex-flow: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+header h1 {
+	font-family: 'Tilda Grande', sans-serif;
+	font-size: 2.5rem;
+	font-weight: 100;
+	color:#fff;
+}
+.nav {
+	list-style-type: none;
+	padding:20px 0;
+}
+.nav li {
+	display: inline;
+	margin-right:25px;
+}
+.nav li a {
+	text-decoration: none;
+	color: #fff;
+}
+.nav li a:hover {
+	color:#333;
+}
+.jumbotron {
+	background-image: url(../img/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 600px;
+}
+
+.jumbotron .container {	
+	text-align: center;
+	position: relative;
+	top: 170px;
+}
+
+.jumbotron h2 {
+	text-transform: uppercase;
+	font-size: 4.7rem;
+	color:rgb(255,255,255);/*000*/
+	text-shadow: rgba(12, 11, 11, 1) 3px 3px 5px;
+}
+
+#about {
+	height: 300px;
+	padding-top: 30px;
+}
+
+#about .container {
+	background-color: #fff;
+	padding-top: 3px;
+	-webkit-box-shadow: 7px 9px 5px -5px rgba(209,209,209,1);
+	-moz-box-shadow: 7px 9px 5px -5px rgba(209,209,209,1);
+	box-shadow: 7px 9px 5px -5px rgba(209,209,209,1);
+}
+#about p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 3rem;
+	text-align: center;
+	line-height: 70px;
+	font-weight: 400;
+	color:#a98274;
+}
+
+#about hr {
+	border-top: 1px solid rgb(225,225,225);
+}
+
+input[name ^=field], textarea[name ^=field] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+}
+
+input[name ^=field]:focus, textarea[name ^=field]:focus {
+  border:3px solid #555;
+}
+
+
+input[type = email], input[name="field-name"] {
+	width: 49.7777777%;
+}
+
+.button {
+  background-color: #a98274;
+  border: 2px solid #a98274;
+  border-radius:5px;
+  color: #fff;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.form-button {
+	Background-color:#4b2c20;
+}
+
+.portfolio {
+	padding-top:40px;
+	padding-bottom: 35px;
+}
+
+.portfolio .container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.col {
+	background-color: #fff;
+	width: 30%;
+	text-align: center;
+	-webkit-box-shadow: 7px 9px 5px -5px rgba(209,209,209,1);
+	-moz-box-shadow: 7px 9px 5px -5px rgba(209,209,209,1);
+	box-shadow: 7px 9px 5px -5px rgba(209,209,209,1);
+}
+
+.col p {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 0 50px;
+	margin-top:15px;
+	margin-bottom: 30px;
+}
+
+.col .button {
+	margin-bottom: 20px;
+}
+
+#contact{
+	padding-top: 80px;
+	padding-bottom: 75px;
+}
+
+#contact .container{
+	background-color: #fff;
+	padding: 15px 30px;
+	-webkit-box-shadow: 7px 9px 5px -5px rgba(209,209,209,1);
+	-moz-box-shadow: 7px 9px 5px -5px rgba(209,209,209,1);
+	box-shadow: 7px 9px 5px -5px rgba(209,209,209,1)
+}
+.contact-info {
+	margin-bottom:25px;
+}
+
+.section-title, #portfolio-title {
+	font-size: 'Raleway', sans-serif;
+	font-size: 3rem;
+	color: #4b2c20;
+	margin-bottom:15px;
+}
+
+.contact-info-subtitle {
+	font-family: 'Raleway', sans-serif;
+	font-size:1.1rem;
+	padding-left: 5px;
+	margin-bottom:15px;
+}
+.contact-info-mail{
+	display: block;
+	font-size:1.1rem;
+	padding-left: 5px;
+	margin-bottom:15px;
+}
+.contact-info-phone {
+	font-size:1.1rem;
+	padding-left: 5px;
+	margin-bottom:15px;
+}
+footer {
+	background-color: #4b2c20;
+	color:#fff;
+}
+
+footer .container {
+	padding:15px;
+}
+
+@media (max-width:945px) {
+	input[type = email], input[name="field-name"] {
+	width: 100%;
+}
+}
+
+@media (max-width: 590px) {
+	.portfolio .col {
+		padding-top: 0;
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	.jumbotron h2 {
+		font-size: 3.7rem;
+	}
+}
+
+@media (max-width: 470px) {
+	.jumbotron h2 {
+		font-size: 2.67rem;
+	}
+}
