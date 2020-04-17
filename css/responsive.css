@@ -1,0 +1,72 @@
+@media(max-width:945px) {
+	input[type = email], input[name="field-name"] {
+	width: 100%;
+	}
+}
+
+@media(max-width:760px) {
+    header .container {
+        flex-direction: column;
+    }
+    header .nav li, header a{
+        display: block;
+        height: 40px;
+        font-size: 2rem;
+        margin-bottom: .5em;
+    }
+    .nav {
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        background-color: rgba(45, 52, 56, .8);
+        top: 0;
+        left: -100vw;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        transition: .3s;
+        
+    }
+    .nav li a:hover {
+        border-bottom:1px solid rgb(245,245,246);
+        color: #fff;
+    }
+    .nav.is-active {
+        left: 0;
+    }
+	.burger-button {
+		display: block;
+    }
+    .portfolio .portfolio-col {
+		width: 47%;
+		margin-bottom: 15px;
+	}
+
+}
+@media(max-width: 607px){
+    .social {
+        float: left;
+    }
+}
+
+@media (max-width: 600px) {
+	.portfolio .portfolio-col {
+		padding-top: 0;
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	.jumbotron h2 {
+		font-size: 3.7rem;
+    }
+    .social {
+        float: left;
+    }
+}
+
+@media (max-width: 470px) {
+	.jumbotron h2 {
+		font-size: 2.67rem;
+	}
+}

@@ -2,78 +2,102 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Hoja de Vida</title>
+		<title>Edylber Simancas Site</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/responsive.css">
 		<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
 	</head>
 	<body>
-		<header>
-			<div class="container">
-				<h1>Edylber Simancas</h1>
-				<ul class="nav">
-					<li><a href="#about">Acerca De</a></li>
-					<li><a href="#portfolio-title">Portafolio</a></li>
-					<li><a href="#contact">Contacto</a></li>
-				</ul>
-			</div>
-		</header>
+		<i class="burger-button" id="burger-menu">&#8801;</i>
 		<section class="jumbotron">
 			<div class="container">
+				<header>			
+					<h1>Edylber Simancas</h1>
+						<ul class="nav">
+							<li><a href="index.html">Inicio</a></li>
+							<li><a href="/">Portafolio</a></li>
+							<li><a href="#contact">Contacto</a></li>
+							<li><a href="/">Blog</a></li>
+						</ul>			
+				</header>
 				<article>
-					<h2>Bienvenidos!</h2>					
+					<!-- <h2>Hola! mi nomber es Edylber Simancas </h2>					 -->
 				</article>
 			</div>
 		</section>
-		<section>
+		<section class="about">
+			<h2>Acerca De</h2>
+			<p class="about-description">Hola, me llamo Edylber Simancas y les quiero dar la bienvenida a mi portafolio. En este lugar vas a poder encontrar informacion de contacto asi como un poco de mi vida personal. Espero que podamos pdonernos en contacto y poder llevar a cabo esa idea que llevas en mente.</p>
 			<div class="container">
-				<h2 id ="portfolio-title">Portafolio</h2>
+				<article class="about-col">
+					<img src="img/travel-case.svg" alt="trabajo">
+					<p>Desarrollador Front-end con enfasis en ReactJs.</p>
+				</article>
+				<article class="about-col">
+					<img src="img/location.svg" alt="ubicacion">
+					<p>Bogota, Colombia.</p>
+				</article>
+				<!-- <article class="about-col">
+					<img src="img/list-bullet.svg" alt="hobbies">
+					<p>Estoy en constante aprendizaje de mi carrera.</p>
+				</article> -->
+				<article class="about-col">
+					<img src="img/mood-happy-outline.svg" alt="animalista">
+					<p>Animalista lover!</p>
+				</article>
+				<article class="about-col">
+					<img src="img/music-notes.svg" alt="musica-favorita">
+					<p>Mi musica favorita es la salsa.</p>
+				</article>				
 			</div>
-		</section>
+		</section>		
 		<section class="portfolio">
-			<div class="container">
-				<article class="col">
+			<h2>Portafolio</h2>
+			<div class="container">				
+				<article class="portfolio-col">
 					<img src="img/project_1.jpg">
 					<p>Descubre como hacer negocios con este increible sitio web.</p>
 					<a class="button" href="#">Conocelo ya!</a>
 				</article>
-				<article class="col">
+				<article class="portfolio-col">
 					<img src="img/project_2.jpg">
 					<p>Descubre como hacer negocios con este increible sitio web.</p>
 					<a class="button" href="#">Conocelo ya!</a>
 				</article>
-				<article class="col">
+				<article class="portfolio-col">
 					<img src="img/project_3.jpg">
 					<p>Descubre como hacer negocios con este increible sitio web.</p>
 					<a class="button" href="#">Conocelo ya!</a>
 				</article>
 			</div>
 		</section>
-		<aside id="contact">
-			<div class="container">
-				<article class="contact-info">
-					<h2 class="section-title">Contacto</h2>
-					<p class="contact-info-subtitle">Comunicate ya mismo y planeemos junto tu nuevo proyecto!</p>
-					<a class="contact-info-mail" href="mailto:edylber.simancas@outlook.com">edylber.simancas@outlook.com</a>
-					<p class="contact-info-phone">(+57)321-5881812</p>
-				</article>
-				<article class="contact-form">
-					<form>
-						<input type="text" name="field-name" placeholder="Nombre">
-						<input type="email" name="field-mail" placeholder="Email">
-						<input type="text" name="field-subject" placeholder="Asunto">
-						<textarea rows="10" name="field-user-input" placeholder="Mensaje"></textarea>
-						<button class="button form-button">Enviar</button>
+		<aside class="contacto">
+			<div class="container">			
+				<article class="contacto-formulario">
+					<h3>¿Creamos algo juntos?</h3>
+					<form action="/" method="GET">
+						<input type="email" name="email" placeholder="Dejame tu correo" id="email" required>
+						<input type="submit" value="Enviar">
 					</form>
 				</article>
-			</div>
-		</aside>
+				<article class="social">
+					<a href="/" class="social-link twitter"></a>
+					<a href="/" class="social-link facebook"></a>
+					<a href="/" class="social-link github"></a>	
+					<a href="/" class="social-link instagram"></a>				
+				</article>
+				<div class="clearfix"></div>
+			</div>			
+		</aside>		
 		<footer>
-			<div class="container">
-				<p><small>Developed by Edylber Simancas 2020 &copy; </small></p>
+			<div class="container">				
+				<p><small>Diseñado con &#10084; por Edylber Simancas 2020 &copy; </small></p>				
 			</div>
-		</footer>		
-		
+		</footer>
+
+		<!-- Script files -->
+		<script src="js/main.js"></script>		
 	</body>
 </html>
 
