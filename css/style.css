@@ -154,7 +154,6 @@ input[type = email], input[name="field-name"] {
 
 .button {
   background-color: rgba(252, 193, 7, 1);
-  border: 2px solid rgba(0, 0, 0, 1);
   border-radius:5px;
   color: #fff;
   padding: 15px 30px;
@@ -162,15 +161,9 @@ input[type = email], input[name="field-name"] {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  margin: 20px;
   cursor: pointer;
-  position: relative;
 }
-
-.button:hover {
-	top: 2px;	
-}
-
 
 .portfolio {
 	padding-top: 80px;
@@ -186,7 +179,8 @@ input[type = email], input[name="field-name"] {
 
 .portfolio-col {
 	background-color: #fff;
-	width: 30%;
+	width: 32%;
+	height: auto;
 	text-align: center;	
 	transition: box-shadow 200ms ease;
 }
@@ -194,17 +188,14 @@ input[type = email], input[name="field-name"] {
 .portfolio-col p {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
-	font-size: 14px;
+	font-size: 1em;
 	line-height: 20px;
 	padding: 0 50px;
-	margin-top:15px;
+	margin-top:20px;
 	margin-bottom: 30px;
 	color: #000;
 }
 
-.portfolio-col .button {
-	margin-bottom: 20px;
-}
 
 .portfolio .portfolio-col:hover {
 	box-shadow: 0 34px 50px -15px rgba(0, 0, 0, 0.13);    
