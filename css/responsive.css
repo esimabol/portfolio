@@ -29,10 +29,7 @@
         transition: .3s;
         
     }
-    .nav li a:hover {
-        border-bottom:1px solid rgb(245,245,246);
-        color: #fff;
-    }
+
     .nav.is-active {
         left: 0;
     }

@@ -28,8 +28,10 @@ h2 {
 .burger-button {
 	width: 40px;
 	height: 40px;
+	font-size: 1.5rem;
+	font-weight: 500;
 	border-radius: 50%; /*Es como si se estuviese asignando 20px*/
-	background-color: rgb(45, 52, 56);
+	background-color: rgba(75, 44, 32, 1);
 	display: none;
 	line-height: 40px;
 	text-align: center; /*estas dos propiedades hacen las veces de alignI y justifyC*/
@@ -91,7 +93,7 @@ header h1 a {
 .jumbotron h2 {
 	text-transform: uppercase;
 	font-size: 4.7rem;
-	color:rgb(255,255,255);/*000*/
+	color:rgba(245,245,246,1);/*000*/
 	text-shadow: rgba(12, 11, 11, 1) 3px 3px 5px;
 }
 
@@ -151,7 +153,7 @@ input[type = email], input[name="field-name"] {
 }
 
 .button {
-  background-color: rgba(252, 193, 7, 1);
+  background-color: rgba(75, 44, 32, 1);
   border-radius:5px;
   color: #fff;
   padding: 15px 30px;
@@ -202,7 +204,8 @@ input[type = email], input[name="field-name"] {
 /*Aside y Footer*/
 
 .contacto {
-	background-color: rgb(227, 229, 231);
+	background-color: rgba(169, 130, 116, 1);
+	color: rgba(245,245,246,1);
 	padding-top: 10px;
 }
 #email {
@@ -219,7 +222,7 @@ input[type = email], input[name="field-name"] {
 
 input[type=submit] {
 	display: inline-block;
-	background: rgba(252, 193, 7, 1);
+	background: rgba(75, 44, 32, 1);
 	color: #fff;
 	padding: 10px 0;
 	border-radius: 5px;
@@ -261,8 +264,8 @@ input[type=submit] {
 }
 
 footer {
-	background-color: rgb(227, 229, 231);
-	color:rgb(45, 52, 56);
+	background-color: rgba(169, 130, 116, 1);
+	color:rgba(245,245,246,1);
 }
 
 footer .container {
