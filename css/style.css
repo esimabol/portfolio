@@ -42,11 +42,10 @@ h2 {
   }
 
 header {
-	padding:5px 15px;
-	
+	background-color: #a98274;	
 }
 
-.jumbotron header{
+header .container{
 	display: flex;
 	flex-direction: row;
 	flex-flow: wrap;
@@ -55,10 +54,10 @@ header {
 }
 header h1 a {
 	font-family: 'Great Vibes', cursive, sans-serif;
-	font-size: 3rem;
+	font-size: 2rem;
 	font-weight: 400;
 	text-decoration: none;
-	color: #36454f;
+	color: rgba(255,255,255,1);
 	
 }
 .nav {
@@ -70,17 +69,16 @@ header h1 a {
 	margin-right:25px;
 }
 .nav li a {
-	color:#36454f;
+	color:rgba(255,255,255,1);
 	text-decoration: none;
 	padding:10px 30px;
 	font-size: 1.2rem;
 	
 }
 .nav li a:hover {
-	background-color:rgba(227, 229, 231, 1);
-	color:rgba(252, 193, 7, 1);
-	border-radius: 5px;
+	text-decoration: underline;	
 }
+
 .jumbotron {
 	background-image: url(../img/bg.jpg);
 	background-repeat: no-repeat;
