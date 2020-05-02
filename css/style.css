@@ -86,7 +86,7 @@ header h1 a {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
-	height: 600px;
+	height:800px;
 }
 
 
@@ -99,6 +99,8 @@ header h1 a {
 
 .about {
 	background-color: rgba(227, 229, 231, 1);
+	padding-top: 80px;
+	padding-bottom:80px;
 }
 
 .about-description {
@@ -167,7 +169,7 @@ input[type = email], input[name="field-name"] {
 
 .portfolio {
 	padding-top: 80px;
-	padding-bottom: 75px;
+	padding-bottom: 80px;
 }
 .portfolio .container {
 	display: flex;
